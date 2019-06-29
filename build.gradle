@@ -13,5 +13,7 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
-    
+    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.6'
+    testCompile "org.testcontainers:testcontainers:1.11.3"
+    testCompile "org.testcontainers:mysql:1.11.3"
 }
