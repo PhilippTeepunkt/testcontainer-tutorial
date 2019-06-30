@@ -1,0 +1,10 @@
+simpleAlpineServer:
+  image: alpine:3.2
+  command: ["/bin/sh", "-c","while true; do echo \"HTTP/1.1 200 OK\n\nHello Testcontainer!\" | nc -l -p 81; done"]
+
+simpleMySQLContainer:
+  image: mysql:8.0.16
+  command: --default-authentication-plugin=mysql_native_password
+  restart: always
+  environment:
+    MYSQL_ROOT_PASSWORD: example

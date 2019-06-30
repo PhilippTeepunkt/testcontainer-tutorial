@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class DatabaseConnectorTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class DatabaseConnectorTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; DatabaseConnectorTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">41.210s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">DatabaseTest</td>
+<td class="success">41.210s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>21:05:47.889 [Test worker] DEBUG ?? [mysql:5.7.22] - Starting container: mysql:5.7.22
+21:05:47.890 [Test worker] DEBUG ?? [mysql:5.7.22] - Trying to start container: mysql:5.7.22
+21:05:47.890 [Test worker] DEBUG ?? [mysql:5.7.22] - Trying to start container: mysql:5.7.22 (attempt 1/3)
+21:05:47.890 [Test worker] DEBUG ?? [mysql:5.7.22] - Starting container: mysql:5.7.22
+21:05:47.890 [Test worker] INFO  ?? [mysql:5.7.22] - Creating container for image: mysql:5.7.22
+21:05:47.890 [Test worker] DEBUG o.t.utility.RegistryAuthLocator - Looking up auth config for image: mysql:5.7.22
+21:05:47.890 [Test worker] DEBUG o.t.utility.RegistryAuthLocator - RegistryAuthLocator has configFile: /home/philipp/.docker/config.json (does not exist) and commandPathPrefix: 
+21:05:47.890 [Test worker] WARN  o.t.utility.RegistryAuthLocator - Failure when attempting to lookup auth config (dockerImageName: mysql:5.7.22, configFile: /home/philipp/.docker/config.json. Falling back to docker-java default behaviour. Exception message: /home/philipp/.docker/config.json (Datei oder Verzeichnis nicht gefunden)
+21:05:47.890 [Test worker] DEBUG o.t.d.a.AuthDelegatingDockerClientConfig - Effective auth config [null]
+21:05:47.892 [Test worker] DEBUG c.g.d.core.command.AbstrDockerCmd - Cmd: com.github.dockerjava.core.command.CreateContainerCmdImpl@3efbcfb1[name=&lt;null&gt;,hostName=&lt;null&gt;,domainName=&lt;null&gt;,user=&lt;null&gt;,attachStdin=&lt;null&gt;,attachStdout=&lt;null&gt;,attachStderr=&lt;null&gt;,portSpecs=&lt;null&gt;,tty=&lt;null&gt;,stdinOpen=&lt;null&gt;,stdInOnce=&lt;null&gt;,env={MYSQL_DATABASE=test,MYSQL_PASSWORD=my-secret-pw,MYSQL_USER=testuser,MYSQL_ROOT_PASSWORD=my-secret-pw},cmd={},entrypoint=&lt;null&gt;,image=mysql:5.7.22,volumes=com.github.dockerjava.api.model.Volumes@7b938942,workingDir=&lt;null&gt;,macAddress=&lt;null&gt;,networkDisabled=&lt;null&gt;,exposedPorts=com.github.dockerjava.api.model.ExposedPorts@6b7da196,stopSignal=&lt;null&gt;,hostConfig=com.github.dockerjava.api.model.HostConfig@23bf0e1d[binds=com.github.dockerjava.api.model.Binds@4359db9c,blkioWeight=&lt;null&gt;,blkioWeightDevice=&lt;null&gt;,blkioDeviceReadBps=&lt;null&gt;,blkioDeviceReadIOps=&lt;null&gt;,blkioDeviceWriteBps=&lt;null&gt;,blkioDeviceWriteIOps=&lt;null&gt;,memorySwappiness=&lt;null&gt;,capAdd=&lt;null&gt;,capDrop=&lt;null&gt;,containerIDFile=&lt;null&gt;,cpuPeriod=&lt;null&gt;,cpuShares=&lt;null&gt;,cpuQuota=&lt;null&gt;,cpusetCpus=&lt;null&gt;,cpusetMems=&lt;null&gt;,devices=&lt;null&gt;,diskQuota=&lt;null&gt;,dns=&lt;null&gt;,dnsSearch=&lt;null&gt;,extraHosts={},links=com.github.dockerjava.api.model.Links@2467832c,logConfig=&lt;null&gt;,lxcConf=&lt;null&gt;,memory=&lt;null&gt;,memorySwap=&lt;null&gt;,memoryReservation=&lt;null&gt;,kernelMemory=&lt;null&gt;,networkMode=&lt;null&gt;,oomKillDisable=&lt;null&gt;,autoRemove=&lt;null&gt;,oomScoreAdj=&lt;null&gt;,portBindings={},privileged=&lt;null&gt;,publishAllPorts=true,readonlyRootfs=&lt;null&gt;,restartPolicy=&lt;null&gt;,ulimits=&lt;null&gt;,volumesFrom={},pidMode=&lt;null&gt;,securityOpts=&lt;null&gt;,cgroupParent=&lt;null&gt;,volumeDriver=&lt;null&gt;,shmSize=&lt;null&gt;,pidsLimit=&lt;null&gt;,runtime=&lt;null&gt;,tmpFs=&lt;null&gt;],labels={org.testcontainers=true, org.testcontainers.sessionId=9ec7b994-03fe-45c0-a15b-17845841a62f},networkingConfig=&lt;null&gt;,ipv4Address=&lt;null&gt;,ipv6Address=&lt;null&gt;,aliases=&lt;null&gt;,authConfig=&lt;null&gt;,execution=com.github.dockerjava.core.exec.CreateContainerCmdExec@7984ca9e]
+21:05:48.880 [Test worker] DEBUG o.t.utility.MountableFile - Copying classpath resource(s) from jar:file:/home/philipp/.gradle/caches/modules-2/files-2.1/org.testcontainers/mysql/1.11.3/5ba673a729ac70c03d80daff17ae7101bf372c91/mysql-1.11.3.jar!/mysql-default-conf to /tmp/.testcontainers-tmp-10078386649288682473 to permit Docker to bind
+21:05:48.880 [Test worker] DEBUG o.t.utility.MountableFile - Copying resource mysql-default-conf from JAR file /home/philipp/.gradle/caches/modules-2/files-2.1/org.testcontainers/mysql/1.11.3/5ba673a729ac70c03d80daff17ae7101bf372c91/mysql-1.11.3.jar
+21:05:48.880 [Test worker] DEBUG o.t.utility.MountableFile - Copying classpath resource(s) from jar:file:/home/philipp/.gradle/caches/modules-2/files-2.1/org.testcontainers/mysql/1.11.3/5ba673a729ac70c03d80daff17ae7101bf372c91/mysql-1.11.3.jar!/mysql-default-conf to /tmp/.testcontainers-tmp-10078386649288682473 to permit Docker to bind
+21:05:48.881 [Test worker] DEBUG o.t.utility.MountableFile - Copying resource mysql-default-conf from JAR file /home/philipp/.gradle/caches/modules-2/files-2.1/org.testcontainers/mysql/1.11.3/5ba673a729ac70c03d80daff17ae7101bf372c91/mysql-1.11.3.jar
+21:05:48.883 [Test worker] DEBUG c.g.d.core.command.AbstrDockerCmd - Cmd: a302e83baa54ee6dbaedea0a3a7490489f520a17cbee5ec85e9a88d96985b9a6,false,com.github.dockerjava.core.exec.InspectContainerCmdExec@1a8ac264
+21:05:48.883 [Test worker] DEBUG c.g.d.c.exec.InspectContainerCmdExec - GET: OkHttpWebTarget(okHttpClient=org.testcontainers.shaded.okhttp3.OkHttpClient@5f6b4c8a, baseUrl=http://docker.socket/, path=[/containers/a302e83baa54ee6dbaedea0a3a7490489f520a17cbee5ec85e9a88d96985b9a6/json], queryParams={})
+21:05:48.921 [Test worker] DEBUG c.g.d.core.command.AbstrDockerCmd - Cmd: com.github.dockerjava.core.command.CopyArchiveToContainerCmdImpl@406565c9[cp ,&lt;null&gt;, ,a302e83baa54ee6dbaedea0a3a7490489f520a17cbee5ec85e9a88d96985b9a6,:,/etc/mysql/]
+21:05:49.120 [Test worker] INFO  ?? [mysql:5.7.22] - Starting container with ID: a302e83baa54ee6dbaedea0a3a7490489f520a17cbee5ec85e9a88d96985b9a6
+21:05:49.120 [Test worker] DEBUG c.g.d.core.command.AbstrDockerCmd - Cmd: a302e83baa54ee6dbaedea0a3a7490489f520a17cbee5ec85e9a88d96985b9a6,com.github.dockerjava.core.exec.StartContainerCmdExec@348d59a3
+21:05:49.994 [Test worker] INFO  ?? [mysql:5.7.22] - Container mysql:5.7.22 is starting: a302e83baa54ee6dbaedea0a3a7490489f520a17cbee5ec85e9a88d96985b9a6
+21:05:49.994 [Test worker] DEBUG c.g.d.core.command.AbstrDockerCmd - Cmd: a302e83baa54ee6dbaedea0a3a7490489f520a17cbee5ec85e9a88d96985b9a6,false,com.github.dockerjava.core.exec.InspectContainerCmdExec@188a7ab6
+21:05:49.994 [Test worker] DEBUG c.g.d.c.exec.InspectContainerCmdExec - GET: OkHttpWebTarget(okHttpClient=org.testcontainers.shaded.okhttp3.OkHttpClient@5f6b4c8a, baseUrl=http://docker.socket/, path=[/containers/a302e83baa54ee6dbaedea0a3a7490489f520a17cbee5ec85e9a88d96985b9a6/json], queryParams={})
+21:05:49.996 [ducttape-1] DEBUG c.g.d.core.command.AbstrDockerCmd - Cmd: a302e83baa54ee6dbaedea0a3a7490489f520a17cbee5ec85e9a88d96985b9a6,false,com.github.dockerjava.core.exec.InspectContainerCmdExec@61768858
+21:05:49.996 [ducttape-1] DEBUG c.g.d.c.exec.InspectContainerCmdExec - GET: OkHttpWebTarget(okHttpClient=org.testcontainers.shaded.okhttp3.OkHttpClient@5f6b4c8a, baseUrl=http://docker.socket/, path=[/containers/a302e83baa54ee6dbaedea0a3a7490489f520a17cbee5ec85e9a88d96985b9a6/json], queryParams={})
+21:05:49.998 [Test worker] INFO  ?? [mysql:5.7.22] - Waiting for database connection to become available at jdbc:mysql://localhost:32864/test using query 'SELECT 1'
+21:05:49.999 [ducttape-1] DEBUG c.g.d.core.command.AbstrDockerCmd - Cmd: a302e83baa54ee6dbaedea0a3a7490489f520a17cbee5ec85e9a88d96985b9a6,false,com.github.dockerjava.core.exec.InspectContainerCmdExec@809be18
+21:05:49.999 [ducttape-1] DEBUG c.g.d.c.exec.InspectContainerCmdExec - GET: OkHttpWebTarget(okHttpClient=org.testcontainers.shaded.okhttp3.OkHttpClient@5f6b4c8a, baseUrl=http://docker.socket/, path=[/containers/a302e83baa54ee6dbaedea0a3a7490489f520a17cbee5ec85e9a88d96985b9a6/json], queryParams={})
+21:05:50.035 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDOUT: Initializing database
+21:05:50.054 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:05:50.050162Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+21:05:50.726 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:05:50.725331Z 0 [Warning] InnoDB: New log files created, LSN=45790
+21:05:52.351 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:05:52.351252Z 0 [Warning] InnoDB: Creating foreign key constraint system tables.
+21:05:52.498 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:05:52.497118Z 0 [Warning] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: 148a811e-9b6a-11e9-aa97-0242ac110003.
+21:05:52.509 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:05:52.508153Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+21:05:52.511 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:05:52.510378Z 1 [Warning] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+21:06:03.855 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:03.854227Z 1 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+21:06:03.856 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:03.854521Z 1 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+21:06:03.858 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:03.854591Z 1 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+21:06:03.858 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:03.854693Z 1 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+21:06:03.858 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:03.854728Z 1 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+21:06:03.859 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:03.854785Z 1 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+21:06:03.859 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:03.855812Z 1 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+21:06:03.860 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:03.855878Z 1 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+21:06:11.604 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDOUT: Database initialized
+21:06:11.605 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDOUT: Initializing certificates
+21:06:11.639 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: Generating a 2048 bit RSA private key
+21:06:11.661 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: ............+++
+21:06:11.761 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: ..............................................................................+++
+21:06:11.761 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: unable to write 'random state'
+21:06:11.761 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: writing new private key to 'ca-key.pem'
+21:06:11.762 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: -----
+21:06:11.779 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: Generating a 2048 bit RSA private key
+21:06:11.798 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: ...........+++
+21:06:11.884 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: .................................................................+++
+21:06:11.884 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: unable to write 'random state'
+21:06:11.884 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: writing new private key to 'server-key.pem'
+21:06:11.884 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: -----
+21:06:11.897 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: Generating a 2048 bit RSA private key
+21:06:11.986 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: ......................................................................+++
+21:06:12.120 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: ........................................................................................................+++
+21:06:12.120 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: unable to write 'random state'
+21:06:12.120 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: writing new private key to 'client-key.pem'
+21:06:12.120 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: -----
+21:06:12.242 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDOUT: Certificates initialized
+21:06:12.275 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDOUT: MySQL init process in progress...
+21:06:12.452 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:12.448303Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+21:06:12.453 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:12.449795Z 0 [Note] mysqld (mysqld 5.7.22) starting as process 90 ...
+21:06:12.453 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:12.453083Z 0 [Note] InnoDB: PUNCH HOLE support available
+21:06:12.453 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:12.453112Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+21:06:12.453 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:12.453118Z 0 [Note] InnoDB: Uses event mutexes
+21:06:12.453 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:12.453123Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+21:06:12.453 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:12.453127Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+21:06:12.454 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:12.453143Z 0 [Note] InnoDB: Using Linux native AIO
+21:06:12.454 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:12.453485Z 0 [Note] InnoDB: Number of pools: 1
+21:06:12.454 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:12.453623Z 0 [Note] InnoDB: Using CPU crc32 instructions
+21:06:12.455 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:12.455557Z 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+21:06:12.459 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:12.457658Z 0 [Note] InnoDB: Completed initialization of buffer pool
+21:06:12.459 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:12.458456Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+21:06:12.473 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:12.472675Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+21:06:12.549 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:12.547957Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+21:06:12.549 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:12.548156Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+21:06:13.070 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:13.069864Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+21:06:13.071 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:13.070716Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+21:06:13.071 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:13.070734Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+21:06:13.071 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:13.071058Z 0 [Note] InnoDB: Waiting for purge to start
+21:06:13.121 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:13.121288Z 0 [Note] InnoDB: 5.7.22 started; log sequence number 2590701
+21:06:13.122 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:13.121486Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+21:06:13.122 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:13.121868Z 0 [Note] Plugin 'FEDERATED' is disabled.
+21:06:13.123 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:13.123245Z 0 [Note] InnoDB: Buffer pool(s) load completed at 190630 19:06:13
+21:06:13.128 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:13.128516Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+21:06:13.129 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:13.128904Z 0 [Warning] CA certificate ca.pem is self signed.
+21:06:13.201 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:13.200022Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+21:06:13.206 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:13.204970Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+21:06:13.207 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:13.205062Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+21:06:13.207 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:13.205101Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+21:06:13.208 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:13.205204Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+21:06:13.208 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:13.205236Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+21:06:13.209 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:13.205287Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+21:06:13.213 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:13.212326Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+21:06:13.213 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:13.212388Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+21:06:13.234 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:13.233269Z 0 [Note] Event Scheduler: Loaded 0 events
+21:06:13.234 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:13.233673Z 0 [Note] mysqld: ready for connections.
+21:06:13.234 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: Version: '5.7.22'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server (GPL)
+21:06:19.076 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: Warning: Unable to load '/usr/share/zoneinfo/iso3166.tab' as time zone. Skipping it.
+21:06:19.076 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: Warning: Unable to load '/usr/share/zoneinfo/leap-seconds.list' as time zone. Skipping it.
+21:06:23.949 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: Warning: Unable to load '/usr/share/zoneinfo/zone.tab' as time zone. Skipping it.
+21:06:23.949 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: Warning: Unable to load '/usr/share/zoneinfo/zone1970.tab' as time zone. Skipping it.
+21:06:24.005 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.004529Z 4 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+21:06:24.005 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.004551Z 4 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+21:06:24.005 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.004559Z 4 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+21:06:24.005 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.004576Z 4 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+21:06:24.005 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.004579Z 4 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+21:06:24.005 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.004588Z 4 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+21:06:24.005 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.004839Z 4 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+21:06:24.005 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.004850Z 4 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+21:06:24.008 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: mysql: [Warning] Using a password on the command line interface can be insecure.
+21:06:24.013 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: mysql: [Warning] Using a password on the command line interface can be insecure.
+21:06:24.018 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: mysql: [Warning] Using a password on the command line interface can be insecure.
+21:06:24.023 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: mysql: [Warning] Using a password on the command line interface can be insecure.
+21:06:24.025 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.025336Z 8 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+21:06:24.026 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.025360Z 8 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+21:06:24.026 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.025368Z 8 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+21:06:24.026 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.025392Z 8 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+21:06:24.026 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.025395Z 8 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+21:06:24.026 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.025405Z 8 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+21:06:24.026 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.025700Z 8 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+21:06:24.026 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.025711Z 8 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+21:06:24.027 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.026963Z 0 [Note] Giving 0 client threads a chance to die gracefully
+21:06:24.027 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.026987Z 0 [Note] Shutting down slave threads
+21:06:24.027 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.026992Z 0 [Note] Forcefully disconnecting 0 remaining clients
+21:06:24.027 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.026997Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+21:06:24.027 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027053Z 0 [Note] Binlog end
+21:06:24.028 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027248Z 0 [Note] Shutting down plugin 'ngram'
+21:06:24.028 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDOUT: 
+21:06:24.028 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027301Z 0 [Note] Shutting down plugin 'partition'
+21:06:24.028 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027344Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+21:06:24.028 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027379Z 0 [Note] Shutting down plugin 'ARCHIVE'
+21:06:24.028 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027408Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+21:06:24.028 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027443Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+21:06:24.028 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027451Z 0 [Note] Shutting down plugin 'MyISAM'
+21:06:24.028 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027461Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+21:06:24.028 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027466Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+21:06:24.028 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027469Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+21:06:24.028 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027472Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+21:06:24.028 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027476Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+21:06:24.029 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027479Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+21:06:24.029 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027483Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+21:06:24.029 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027487Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+21:06:24.029 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027490Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+21:06:24.029 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027493Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+21:06:24.029 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027496Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+21:06:24.029 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027498Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+21:06:24.029 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027500Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+21:06:24.029 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027502Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+21:06:24.029 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027504Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+21:06:24.029 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027507Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+21:06:24.029 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027509Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+21:06:24.029 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027511Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+21:06:24.029 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027513Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+21:06:24.029 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027515Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+21:06:24.030 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027518Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+21:06:24.030 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027520Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+21:06:24.030 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027522Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+21:06:24.030 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027524Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+21:06:24.030 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027526Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+21:06:24.030 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027529Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+21:06:24.030 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027531Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+21:06:24.030 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027533Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+21:06:24.030 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027535Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+21:06:24.030 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027537Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+21:06:24.030 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.027540Z 0 [Note] Shutting down plugin 'InnoDB'
+21:06:24.030 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.028216Z 0 [Note] InnoDB: FTS optimize thread exiting.
+21:06:24.030 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.028324Z 0 [Note] InnoDB: Starting shutdown...
+21:06:24.130 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.129070Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+21:06:24.131 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:24.130184Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 190630 19:06:24
+21:06:26.125 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.123935Z 0 [Note] InnoDB: Shutdown completed; log sequence number 12361292
+21:06:26.134 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.132570Z 0 [Note] InnoDB: Removed temporary tablespace data file: &quot;ibtmp1&quot;
+21:06:26.134 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.132649Z 0 [Note] Shutting down plugin 'MEMORY'
+21:06:26.135 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.132677Z 0 [Note] Shutting down plugin 'CSV'
+21:06:26.135 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.132697Z 0 [Note] Shutting down plugin 'sha256_password'
+21:06:26.136 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.132716Z 0 [Note] Shutting down plugin 'mysql_native_password'
+21:06:26.136 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.133313Z 0 [Note] Shutting down plugin 'binlog'
+21:06:26.139 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.138446Z 0 [Note] mysqld: Shutdown complete
+21:06:26.140 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 
+21:06:26.198 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDOUT: 
+21:06:26.199 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDOUT: MySQL init process done. Ready for start up.
+21:06:26.200 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDOUT: 
+21:06:26.407 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.402928Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+21:06:26.407 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.404391Z 0 [Note] mysqld (mysqld 5.7.22) starting as process 1 ...
+21:06:26.408 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.408008Z 0 [Note] InnoDB: PUNCH HOLE support available
+21:06:26.408 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.408033Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+21:06:26.408 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.408038Z 0 [Note] InnoDB: Uses event mutexes
+21:06:26.408 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.408041Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+21:06:26.408 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.408045Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+21:06:26.408 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.408050Z 0 [Note] InnoDB: Using Linux native AIO
+21:06:26.408 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.408351Z 0 [Note] InnoDB: Number of pools: 1
+21:06:26.408 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.408483Z 0 [Note] InnoDB: Using CPU crc32 instructions
+21:06:26.410 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.410151Z 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+21:06:26.411 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.411679Z 0 [Note] InnoDB: Completed initialization of buffer pool
+21:06:26.412 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.412407Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+21:06:26.424 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.423937Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+21:06:26.514 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.512921Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+21:06:26.515 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.513210Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+21:06:26.767 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.766806Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+21:06:26.771 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.770503Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+21:06:26.773 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.770554Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+21:06:26.773 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.772133Z 0 [Note] InnoDB: Waiting for purge to start
+21:06:26.824 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.822768Z 0 [Note] InnoDB: 5.7.22 started; log sequence number 12361292
+21:06:26.826 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.824461Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+21:06:26.827 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.826276Z 0 [Note] Plugin 'FEDERATED' is disabled.
+21:06:26.836 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.834854Z 0 [Note] InnoDB: Buffer pool(s) load completed at 190630 19:06:26
+21:06:26.852 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.850854Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+21:06:26.852 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.852069Z 0 [Warning] CA certificate ca.pem is self signed.
+21:06:26.858 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.857624Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+21:06:26.858 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.857699Z 0 [Note] IPv6 is available.
+21:06:26.858 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.857715Z 0 [Note]   - '::' resolves to '::';
+21:06:26.858 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.857742Z 0 [Note] Server socket created on IP: '::'.
+21:06:26.903 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.902087Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+21:06:26.908 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.906785Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+21:06:26.909 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.906936Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+21:06:26.910 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.907031Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+21:06:26.910 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.907221Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+21:06:26.911 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.907275Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+21:06:26.911 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.907346Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+21:06:26.920 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.919138Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+21:06:26.921 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.919237Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+21:06:26.941 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.940361Z 0 [Note] Event Scheduler: Loaded 0 events
+21:06:26.941 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: 2019-06-30T19:06:26.940732Z 0 [Note] mysqld: ready for connections.
+21:06:26.941 [tc-okhttp-stream-1539550800] INFO  DatabaseConnectorTest - STDERR: Version: '5.7.22'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+21:06:27.013 [ducttape-1] INFO  ?? [mysql:5.7.22] - Obtained a connection to container (jdbc:mysql://localhost:32864/test)
+21:06:27.014 [Test worker] INFO  ?? [mysql:5.7.22] - Container mysql:5.7.22 started
+21:06:27.016 [Test worker] INFO  org.testcontainers.ext.ScriptUtils - Executing database script from init.sql
+21:06:27.740 [Test worker] DEBUG o.t.jdbc.JdbcDatabaseDelegate - false returned as updateCount for SQL: CREATE TABLE contacts(ID int(100) NOT NULL AUTO_INCREMENT PRIMARY KEY ,NAME VARCHAR(45),VORNAME VARCHAR(45),AGE int(3))
+21:06:28.018 [Test worker] DEBUG o.t.jdbc.JdbcDatabaseDelegate - false returned as updateCount for SQL: INSERT INTO contacts (ID,NAME,VORNAME,AGE) VALUES (1,'Mustermann','Max',24),(2,'Müller','Manfred',35)
+21:06:28.018 [Test worker] INFO  org.testcontainers.ext.ScriptUtils - Executed database script from init.sql in 1001 ms.
+21:06:28.070 [Test worker] DEBUG c.g.d.core.command.AbstrDockerCmd - Cmd: a302e83baa54ee6dbaedea0a3a7490489f520a17cbee5ec85e9a88d96985b9a6,false,com.github.dockerjava.core.exec.InspectContainerCmdExec@52d051dc
+21:06:28.070 [Test worker] DEBUG c.g.d.c.exec.InspectContainerCmdExec - GET: OkHttpWebTarget(okHttpClient=org.testcontainers.shaded.okhttp3.OkHttpClient@5f6b4c8a, baseUrl=http://docker.socket/, path=[/containers/a302e83baa54ee6dbaedea0a3a7490489f520a17cbee5ec85e9a88d96985b9a6/json], queryParams={})
+21:06:28.072 [Test worker] DEBUG c.g.d.core.command.AbstrDockerCmd - Cmd: a302e83baa54ee6dbaedea0a3a7490489f520a17cbee5ec85e9a88d96985b9a6,&lt;null&gt;,com.github.dockerjava.core.exec.KillContainerCmdExec@4d5ecd3f
+21:06:28.925 [Test worker] DEBUG c.g.d.core.command.AbstrDockerCmd - Cmd: a302e83baa54ee6dbaedea0a3a7490489f520a17cbee5ec85e9a88d96985b9a6,false,com.github.dockerjava.core.exec.InspectContainerCmdExec@7e125a0a
+21:06:28.925 [Test worker] DEBUG c.g.d.c.exec.InspectContainerCmdExec - GET: OkHttpWebTarget(okHttpClient=org.testcontainers.shaded.okhttp3.OkHttpClient@5f6b4c8a, baseUrl=http://docker.socket/, path=[/containers/a302e83baa54ee6dbaedea0a3a7490489f520a17cbee5ec85e9a88d96985b9a6/json], queryParams={})
+21:06:28.931 [Test worker] DEBUG c.g.d.core.command.AbstrDockerCmd - Cmd: a302e83baa54ee6dbaedea0a3a7490489f520a17cbee5ec85e9a88d96985b9a6,true,true,com.github.dockerjava.core.exec.RemoveContainerCmdExec@3993f657
+21:06:29.097 [Test worker] DEBUG o.t.utility.ResourceReaper - Removed container and associated volume(s): mysql:5.7.22
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.10.3</a> at 30.06.2019, 21:06:29</p>
+</div>
+</div>
+</body>
+</html>
