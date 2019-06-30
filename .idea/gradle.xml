@@ -3,10 +3,6 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-<<<<<<< HEAD
-=======
-        <option name="createEmptyContentRootDirectories" value="true" />
->>>>>>> b26fe65f14f53b7aa08db5dd937b99bf980be19a
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
