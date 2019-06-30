@@ -1,6 +1,6 @@
 simpleAlpineServer:
   image: alpine:3.2
-  command: ["/bin/sh", "-c","while true; do echo \"HTTP/1.1 200 OK\n\nHello Testcontainer!\" | nc -l -p 80; done"]
+  command: ["/bin/sh", "-c","while true; do echo \"HTTP/1.1 200 OK\n\nHello Testcontainer!\" | nc -l -p 81; done"]
 
 simpleMySQLContainer:
   image: mysql:8.0.16

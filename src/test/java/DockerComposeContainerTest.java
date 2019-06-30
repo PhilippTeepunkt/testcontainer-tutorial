@@ -24,9 +24,9 @@ public class DockerComposeContainerTest {
     @ClassRule
     public static DockerComposeContainer composeContainer = new DockerComposeContainer(
             new File("src/test/resources/compose-test.yml")) //load yml file for compose
-            .withExposedService("simpleAlpineServer",80) //set webserver port
-            .withExposedService("simpleMySQLContainer,",3306) //set default mysql port
-            .withLogConsumer("simpleAlpineServer",new Slf4jLogConsumer(logger));
+            .withExposedService("simpleAlpineServer_1",81) //set webserver port
+            .withExposedService("simpleMySQLContainer_1,",3306) //set default mysql port
+            .withLogConsumer("simpleAlpineServer_1",new Slf4jLogConsumer(logger));
 
 
 
@@ -34,9 +34,9 @@ public class DockerComposeContainerTest {
     public void simpleWebserverTest()throws Exception {
 
         //Create HTTP URL
-        String address = "http://"+composeContainer.getServiceHost("simpleAlpineServer",80)
+        String address = "http://"+composeContainer.getServiceHost("simpleAlpineServer_1",81)
                 +":"
-                +composeContainer.getServicePort("simpleAlpineServer",80);
+                +composeContainer.getServicePort("simpleAlpineServer_1",81);
 
         //create connection + request
         URL url = new URL(address);
@@ -68,7 +68,7 @@ public class DockerComposeContainerTest {
         try{
 
             //creates new jdbc instance for database connection
-            JDBC jdbc = new JDBC("jdbc:mysql://"+composeContainer.getServiceHost("simpleMySQLContainer",80),"root","example");
+            JDBC jdbc = new JDBC("jdbc:mysql://"+composeContainer.getServiceHost("simpleMySQLContainer_1",3306),"root","example");
 
             //insert something
             jdbc.update("INSERT INTO contacts(ID,NAME,VORNAME,AGE) VALUES (0,'Tornow','Philipp',20),(0,'Simon','Jürgen',45);");

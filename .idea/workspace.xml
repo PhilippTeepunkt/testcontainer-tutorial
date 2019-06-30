@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52cd6c5a-ec6a-4e0a-967d-16092e48cff7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DockerComposeContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DockerComposeContainerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/compose-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/compose-test.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -100,8 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SimpleGenericContainerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="22" column="105" selection-start-line="21" selection-start-column="25" selection-end-line="22" selection-end-column="105" />
+            <state relative-caret-position="331">
+              <caret line="38" column="68" selection-start-line="38" selection-start-column="68" selection-end-line="38" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,8 +123,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DockerComposeContainerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="80" selection-start-line="28" selection-start-column="80" selection-end-line="28" selection-end-column="80" />
+            <state relative-caret-position="122">
+              <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,19 +133,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testcontainers/testcontainers/1.11.3/33cdb26265c28fa0570290f64835cbe7fcb6b4db/testcontainers-1.11.3-sources.jar!/org/testcontainers/containers/GenericContainer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2520">
-              <caret line="216" selection-start-line="216" selection-end-line="216" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/compose-test.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="30">
+              <caret line="2" column="106" selection-start-line="2" selection-start-column="106" selection-end-line="2" selection-end-column="106" />
             </state>
           </provider>
         </entry>
@@ -217,7 +219,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,27 +235,7 @@
               <item name="testcontainer-tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="testcontainer-tutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="testcontainer-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testcontainer-tutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testcontainer-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testcontainer-tutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="testcontainer-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testcontainer-tutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testcontainer-tutorial" type="b2602c69:ProjectViewProjectNode" />
@@ -268,6 +249,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,47 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.DatabaseConnectorTest">
-    <configuration name="DatabaseConnectorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;DatabaseConnectorTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="DatabaseConnectorTest.DatabaseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;DatabaseConnectorTest.DatabaseTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.testcontainer-tutorial [build]">
     <configuration name="DockerComposeContainerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -401,13 +343,51 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="testcontainer-tutorial [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="testcontainer-tutorial [wrapper]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="wrapper" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DatabaseConnectorTest" />
-        <item itemvalue="Gradle.DatabaseConnectorTest.DatabaseTest" />
         <item itemvalue="Gradle.testcontainer-tutorial [build]" />
         <item itemvalue="Gradle.DockerComposeContainerTest" />
         <item itemvalue="Gradle.SimpleGenericContainerTest" />
+        <item itemvalue="Gradle.testcontainer-tutorial [clean]" />
+        <item itemvalue="Gradle.testcontainer-tutorial [wrapper]" />
       </list>
     </recent_temporary>
   </component>
@@ -426,43 +406,53 @@
       <workItem from="1561900630414" duration="4382000" />
       <workItem from="1561912318820" duration="6244000" />
       <workItem from="1561918593872" duration="531000" />
+      <workItem from="1561919149194" duration="450000" />
+      <workItem from="1561919812540" duration="1551000" />
     </task>
+    <task id="LOCAL-00001" summary="fix gradle wrapper problems">
+      <created>1561919312099</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561919312101</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SimpleGenericContainerTest - 2019.06.30 at 19h 25m 54s.xml">
-      <configuration name="SimpleGenericContainerTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SimpleGenericContainerTest - 2019.06.30 at 19h 26m 25s.xml">
-      <configuration name="SimpleGenericContainerTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SimpleGenericContainerTest - 2019.06.30 at 19h 27m 15s.xml">
-      <configuration name="SimpleGenericContainerTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="SimpleGenericContainerTest - 2019.06.30 at 19h 51m 24s.xml">
-      <configuration name="SimpleGenericContainerTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="DockerComposeContainerTest - 2019.06.30 at 19h 52m 12s.xml">
-      <configuration name="DockerComposeContainerTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="DockerComposeContainerTest - 2019.06.30 at 19h 53m 06s.xml">
-      <configuration name="DockerComposeContainerTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="DockerComposeContainerTest - 2019.06.30 at 19h 55m 17s.xml">
-      <configuration name="DockerComposeContainerTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="DockerComposeContainerTest - 2019.06.30 at 20h 01m 55s.xml">
-      <configuration name="DockerComposeContainerTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="DockerComposeContainerTest - 2019.06.30 at 20h 02m 52s.xml">
       <configuration name="DockerComposeContainerTest" configurationId="GradleRunConfiguration" />
     </history-entry>
     <history-entry file="DockerComposeContainerTest - 2019.06.30 at 20h 06m 28s.xml">
       <configuration name="DockerComposeContainerTest" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="DatabaseConnectorTest_DatabaseTest - 2019.06.30 at 20h 27m 19s.xml">
+      <configuration name="DatabaseConnectorTest.DatabaseTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="DatabaseConnectorTest - 2019.06.30 at 20h 28m 30s.xml">
+      <configuration name="DatabaseConnectorTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="DatabaseConnectorTest - 2019.06.30 at 20h 28m 31s.xml">
+      <configuration name="DatabaseConnectorTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="DockerComposeContainerTest - 2019.06.30 at 20h 30m 29s.xml">
+      <configuration name="DockerComposeContainerTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SimpleGenericContainerTest - 2019.06.30 at 20h 31m 37s.xml">
+      <configuration name="SimpleGenericContainerTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SimpleGenericContainerTest - 2019.06.30 at 20h 39m 23s.xml">
+      <configuration name="SimpleGenericContainerTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="DockerComposeContainerTest - 2019.06.30 at 20h 43m 51s.xml">
+      <configuration name="DockerComposeContainerTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="DockerComposeContainerTest - 2019.06.30 at 21h 01m 57s.xml">
+      <configuration name="DockerComposeContainerTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18734000" />
+    <option name="totallyTimeSpent" value="20735000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -475,8 +465,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1175" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26065302" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26674044" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -485,24 +476,24 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298279" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4991699" weight="0.37667304" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4975097" visible="true" weight="0.54780114" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298279" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4997233" weight="0.3288719" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3298279" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4991699" weight="0.3288719" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4997233" weight="0.3298279" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5008301" side_tool="true" visible="true" weight="0.3298279" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50249034" side_tool="true" weight="0.24378586" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3298279" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4997233" weight="0.3298279" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24958494" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" weight="0.32982844" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" weight="0.12617598" />
+      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.12617598" />
       <window_info anchor="right" id="Database" order="7" weight="0.32982844" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -543,6 +534,50 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix gradle wrapper problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix gradle wrapper problems" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
@@ -558,6 +593,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ContactDatabaseTest" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -572,30 +608,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SimpleGenericContainerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="22" column="105" selection-start-line="21" selection-start-column="25" selection-end-line="22" selection-end-column="105" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testcontainers/testcontainers/1.11.3/33cdb26265c28fa0570290f64835cbe7fcb6b4db/testcontainers-1.11.3-sources.jar!/org/testcontainers/containers/GenericContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="216" selection-start-line="216" selection-end-line="216" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/compose-test.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -624,10 +636,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testcontainers/testcontainers/1.11.3/33cdb26265c28fa0570290f64835cbe7fcb6b4db/testcontainers-1.11.3-sources.jar!/org/testcontainers/containers/GenericContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4455">
+          <caret line="216" selection-start-line="216" selection-end-line="216" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SimpleGenericContainerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="38" column="68" selection-start-line="38" selection-start-column="68" selection-end-line="38" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/compose-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="106" selection-start-line="2" selection-start-column="106" selection-end-line="2" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DockerComposeContainerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="80" selection-start-line="28" selection-start-column="80" selection-end-line="28" selection-end-column="80" />
+        <state relative-caret-position="122">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
