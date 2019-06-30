@@ -8,7 +8,8 @@ public class JDBC {
 
     private Connection connection;
 
-        public JDBC(String url, String user, String pw) throws SQLException {
+    //creates simple JDBC connection
+    public JDBC(String url, String user, String pw) throws SQLException {
         this.url = url;
         this.user = user;
         this.pw = pw;
